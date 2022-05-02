@@ -46,31 +46,23 @@
     </div>
   </div>
 </nav>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
+    <div class="container shadow pagebox p-3 mt-5">
           <heading>YOUR</heading> <heading class="green">INVENTORY</heading>
-        </div>
-        <div class="col text-end">
-          <button class="themebtn btnlight"><i class="bi bi-filter"></i> Sort by: Alpabetically</button>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col">
+      <div class="row m-auto mt-4">
+        <div class="col-4">
           <div class="row themebtn btnlight">
             <div class="col">
               <input type="text" class="green" style="border:none;" value="Search Items"/></div><div class="col d-flex align-items-center justify-content-end"><div><i class="bi bi-search"></i></div></div>
           </div>
         </div>
         <div class="col text-end">
-          <button class="themebtn btndark"><i class="bi bi-plus-circle"></i> Add Items</button>
+          <button class="themebtn btnlight"><i class="bi bi-filter"></i> Sort by: Alpabetically</button>
+          <button class="themebtn btndark" onclick="window.location.href='additem.html'"><i class="bi bi-plus-circle"></i> Add Items</button>
           <button class="themebtn btnlight"><i class="bi bi-chevron-down"></i> Choose Category</button>
         </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div class="row green p-3 borderbottom d-flex align-items-center TEXT-center ">
-        <div class="col bg-dark"></div>
+      </div><br>
+      <div class="row green p-3 borderbottom text-center">
+        <div class="col"></div>
         <div class="col">
           Item
         </div>
@@ -83,7 +75,7 @@
         <div class="col">
           Category
         </div>
-        <div class="col">Edit</div>
+        <div class="col">Actions</div>
       </div>
       
       
@@ -91,11 +83,11 @@
         <div class="col">
           <img src="https://5.imimg.com/data5/YY/EN/MY-8155364/fresh-apple-500x500.jpg" height="70px"/>
         </div>
-        <div class="col">Apples</div>
+        <div class="col" onclick="window.location.href='farmerproductdetails.html'">Apples</div>
         <div class="col">₹80/kg</div>
         <div class="col">₹80/kg</div>
         <div class="col">Fruits</div>
-        <div class="col"><button class="iconbtn green"><i class="bi bi-pencil-square"></i></button><button class="iconbtn red"><i class="bi bi-trash3"></i></button></div>
+        <div class="col"><button class="iconbtn green" onclick="window.location.href='edititem.html'"><i class="bi bi-pencil-square"></i></button><button class="iconbtn red"><i class="bi bi-trash3"></i></button></div>
       </div>
       <div class="row d-flex itemrow align-items-center text-center borderbottom p-3">
         <div class="col">
