@@ -6,11 +6,11 @@
     "variables": {},
     "resources": [
         {
-            "name": "mynetstrgacc04",
+            "name": "mynetstrgacc02",
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2021-04-01",
             "tags": {
-                "displayName": "mynetstrgacc04"
+                "displayName": "mynetstrgacc02"
             },
             "location": "[resourceGroup().location]",
             "kind": "StorageV2",
